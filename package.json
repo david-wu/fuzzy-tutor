@@ -1,0 +1,11 @@
+{
+	"name": "fuzzy-tutor",
+	"description": "Fuzzy look up magic cards",
+	"version": "0.0.1",
+	"author": "David Wu <david.wuu@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+	    "rater": "0.0.1",
+	    "tutor": "^0.8.0"
+	}
+}
