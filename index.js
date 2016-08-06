@@ -7,7 +7,7 @@ function FuzzyTutor(){}
 FuzzyTutor.prototype = {
 	query: function(q){
 		var rater = new Rater();
-		rater.query = q;
+		rater.query = q.toLowerCase();
 		rater.array = cardNames;
 		var cardName =  rater.sorted()[0].d;
 		return new Promise(function(resolve, reject){
